@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = '.'
   s.homepage         = '.'
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ELNHTTPNetworking-RACExtensions.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "https://github.com/elegion/ios-pods-ELNHTTPNetworking-RACExtensions.git", :tag => "v#{s.version}" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
