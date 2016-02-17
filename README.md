@@ -16,27 +16,18 @@ pod 'ELNHTTPNetworking-RACExtensions'
 ```objectivec
 
 @weakify(self);
-[[[[[self.httpClient rac_sendRequest:[ELNDemoRequest new]] initially:^{
+[[[[[self.httpClient rac_sendRequest:[Request new]] initially:^{
     @strongify(self);
-
-    self.textView.text = nil;
 
     [self.activityIndicator startAnimating];
 }] finally:^{
     @strongify(self);
 
     [self.activityIndicator stopAnimating];
-}] deliverOn:[RACScheduler mainThreadScheduler]] subscribeNext:^(NSArray<ELNDemoModel *> *items) {
+}] deliverOn:[RACScheduler mainThreadScheduler]] subscribeNext:^(id responseObject) {
     @strongify(self);
 
-    NSMutableString *text = [NSMutableString new];
-
-    for (ELNDemoModel *item in items) {
-        [text appendString:item.body];
-        [text appendString:@"\n\n"];
-    }
-
-    self.textView.text = [text copy];
+    // TODO:
 } error:^(NSError *error) {
     @strongify(self);
 
