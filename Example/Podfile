@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ELNHTTPNetworking-RACExtensions_Example', :exclusive => true do
+  pod 'ELNHTTPNetworking-RACExtensions', :path => '../'
+end
+
+target 'ELNHTTPNetworking-RACExtensions_Tests', :exclusive => true do
+  pod 'ELNHTTPNetworking-RACExtensions', :path => '../'
+
+  
+end
