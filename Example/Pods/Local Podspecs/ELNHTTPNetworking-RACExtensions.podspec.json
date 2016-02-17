@@ -1,0 +1,30 @@
+{
+  "name": "ELNHTTPNetworking-RACExtensions",
+  "version": "0.0.0",
+  "summary": "Reactive extensions for ELNHTTPNetworking",
+  "license": "MIT",
+  "authors": ".",
+  "homepage": ".",
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ELNHTTPNetworking-RACExtensions.git",
+    "tag": "v0.0.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ELNHTTPNetworking-RACExtensions": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ELNHTTPNetworking": [
+
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ]
+  }
+}
