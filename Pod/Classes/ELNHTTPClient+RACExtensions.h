@@ -7,7 +7,7 @@
 //
 
 #import <ELNHTTPNetworking/ELNHTTPNetworking.h>
-#import <ReactiveCocoa.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface ELNHTTPClient (RACExtensions)
 
