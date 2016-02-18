@@ -6,7 +6,7 @@
   "authors": ".",
   "homepage": ".",
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ELNHTTPNetworking-RACExtensions.git",
+    "git": "https://github.com/elegion/ios-pods-ELNHTTPNetworking-RACExtensions.git",
     "tag": "v0.0.0"
   },
   "platforms": {
