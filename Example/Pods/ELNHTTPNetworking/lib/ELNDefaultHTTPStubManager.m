@@ -29,7 +29,7 @@
 - (id)stubRequest:(id<ELNHTTPRequest>)request URLRequest:(NSURLRequest *)URLRequest
 {
     return [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *testURLRequest) {
-        BOOL isEqualURL = [URLRequest.URL.absoluteString isEqualToString:URLRequest.URL.absoluteString];
+        BOOL isEqualURL = [URLRequest.URL.absoluteString isEqualToString:testURLRequest.URL.absoluteString];
         BOOL isEqualMethod = [URLRequest.HTTPMethod isEqualToString:testURLRequest.HTTPMethod];
         return isEqualURL && isEqualMethod;
     } withStubResponse:^OHHTTPStubsResponse * _Nonnull(NSURLRequest * _Nonnull stubbedRequest) {

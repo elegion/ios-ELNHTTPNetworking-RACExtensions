@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "ELNHTTPNetworking": [
-
+      "~> 0.0.1"
     ],
     "ReactiveCocoa": [
       "~> 2.5"

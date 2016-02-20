@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - ELNHTTPNetworking (0.0.0):
+  - ELNHTTPNetworking (0.0.1):
     - AFNetworking (~> 3.0.4)
     - Mantle (~> 2.0.6)
     - OHHTTPStubs (~> 4.7.0)
@@ -46,18 +46,12 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
-  - ELNHTTPNetworking
-  - ELNHTTPNetworking-RACExtensions (from `../`)
-  - ReactiveCocoa (~> 2.5)
-
-EXTERNAL SOURCES:
-  ELNHTTPNetworking-RACExtensions:
-    :path: ../
+  - ELNHTTPNetworking-RACExtensions (= 0.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  ELNHTTPNetworking: cc739ef965c721e3911716df175a5df5b9ea8083
-  ELNHTTPNetworking-RACExtensions: 9afd2c8662b63ae67517c2b8066bfffbef0a2558
+  ELNHTTPNetworking: 856c3e69de74c4b8dc08d95f9b71cb37e103c390
+  ELNHTTPNetworking-RACExtensions: 974594481b4d86b41744e42b5bbb5abf1cf0e78e
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   OHHTTPStubs: d2bf6a0f407620d67e75a1d3f12d86a2b1dd15c0
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
