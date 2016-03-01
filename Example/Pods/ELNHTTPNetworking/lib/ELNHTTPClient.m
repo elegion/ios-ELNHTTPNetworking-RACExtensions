@@ -50,18 +50,20 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
         _baseURL = configuration.baseURL;
         
         NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
-        if ([self respondsToSelector:@selector(requestDefaultTimeout)]) {
-            sessionConfiguration.timeoutIntervalForRequest = [self requestDefaultTimeout];
+        if ([configuration respondsToSelector:@selector(requestDefaultTimeout)]) {
+            sessionConfiguration.timeoutIntervalForRequest = [configuration requestDefaultTimeout];
         }
         
         _sessionManager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:sessionConfiguration];
-        if ([self respondsToSelector:@selector(requestSerializer)]) {
-            _sessionManager.requestSerializer = [self requestSerializer];
+        if ([configuration respondsToSelector:@selector(requestSerializer)]) {
+            _sessionManager.requestSerializer = [configuration requestSerializer];
         }
-        if ([self respondsToSelector:@selector(responseSerializer)]) {
-            _sessionManager.responseSerializer = [self responseSerializer];
+        if ([configuration respondsToSelector:@selector(responseSerializer)]) {
+            _sessionManager.responseSerializer = [configuration responseSerializer];
         }
-        
+        if ([configuration respondsToSelector:@selector(completionQueue)]) {
+            _sessionManager.completionQueue = [configuration completionQueue];
+        }
         if ([configuration respondsToSelector:@selector(stubManager)]) {
             _stubManager = configuration.stubManager;
         }
@@ -73,6 +75,8 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
 
 - (NSURLSessionTask *)sendRequest:(id<ELNHTTPRequest>)request withCompletion:(ELNHTTPRequestCompletionBlock)completion
 {
+    __weak typeof(self) weakSelf = self;
+
     // Prepare request
     
     NSString *baseURL = [request respondsToSelector:@selector(baseURL)] ? [request baseURL] : self.baseURL;
@@ -106,7 +110,6 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
     void (^stubCompletion)();
     if ([self.stubManager hasStubForRequest:request]) {
         id stub = [self.stubManager stubRequest:request URLRequest:urlRequest];
-        __weak typeof(self) weakSelf = self;
         stubCompletion = ^() {
             [weakSelf.stubManager removeStub:stub];
         };
@@ -121,7 +124,7 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
                 ELNResponseMappingResult *responseMappingResult = [self mapRequest:request response:response responseObject:responseObject error:error];
                 ELNAPIResponseContext *responseContext = [[ELNAPIResponseContext alloc] initWithRequest:urlRequest response:response];
                 
-                dispatch_async(dispatch_get_main_queue(), ^{
+                dispatch_async(weakSelf.sessionManager.completionQueue ?: dispatch_get_main_queue(), ^{
                     completion(responseMappingResult.responseObject, responseMappingResult.error, responseContext);
                 });
             });

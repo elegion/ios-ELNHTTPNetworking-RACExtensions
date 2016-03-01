@@ -31,16 +31,8 @@ typedef void (^ELNHTTPRequestCompletionBlock)(id responseObject, NSError *error,
 @protocol ELNHTTPClient <NSObject>
 
 @optional
-/// Сериализатор запросов.
-- (AFHTTPRequestSerializer *)requestSerializer;
-/// Сериализатор ответов.
-- (AFHTTPResponseSerializer *)responseSerializer;
-/** 
- Значение величины таймаута для всех запросов клиента.
- Может быть изменено для отдельного запроса (см. ELNHTTPRequest).
- */
-- (NSTimeInterval)requestDefaultTimeout;
-/** 
+
+/**
  Добавление дополнительных параметров в запрос. Предназначено для добавления 
  общих параметров для всех запросов или определённых групп (например, POST).
  */

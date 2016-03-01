@@ -12,6 +12,7 @@
 		149C19851C74A7C90060A434 /* ELNDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C19841C74A7C90060A434 /* ELNDemoModel.m */; };
 		149C19891C74A8F70060A434 /* ELNDemoNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C19881C74A8F70060A434 /* ELNDemoNetworkConfig.m */; };
 		149C198B1C74B0240060A434 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C198A1C74B0240060A434 /* Launch Screen.storyboard */; };
+		37D8D1DD1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1DB1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -47,6 +48,8 @@
 		149C19871C74A8F70060A434 /* ELNDemoNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNDemoNetworkConfig.h; sourceTree = "<group>"; };
 		149C19881C74A8F70060A434 /* ELNDemoNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNDemoNetworkConfig.m; sourceTree = "<group>"; };
 		149C198A1C74B0240060A434 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		37D8D1DA1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
+		37D8D1DB1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
 		5184830119B9B0708F90E19C /* libPods-ELNHTTPNetworking-RACExtensions_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNHTTPNetworking-RACExtensions_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ELNHTTPNetworking-RACExtensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELNHTTPNetworking-RACExtensions_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,6 +110,7 @@
 		149C19861C74A7D40060A434 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37D8D1D81C85E64600CD9216 /* lib */,
 				149C19831C74A7C90060A434 /* ELNDemoModel.h */,
 				149C19841C74A7C90060A434 /* ELNDemoModel.m */,
 				149C19871C74A8F70060A434 /* ELNDemoNetworkConfig.h */,
@@ -126,6 +130,16 @@
 				D519084ACD7049C1504D40AA /* Pods-ELNHTTPNetworking-RACExtensions_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		37D8D1D81C85E64600CD9216 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				37D8D1DA1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.h */,
+				37D8D1DB1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.m */,
+			);
+			name = lib;
+			path = ../../Pod/Classes;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -418,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149C19851C74A7C90060A434 /* ELNDemoModel.m in Sources */,
+				37D8D1DD1C85E64600CD9216 /* ELNHTTPClient+RACExtensions.m in Sources */,
 				149C19891C74A8F70060A434 /* ELNDemoNetworkConfig.m in Sources */,
 				149C19821C74A65C0060A434 /* ELNDemoRequest.m in Sources */,
 				6003F59E195388D20070C39A /* ELNAppDelegate.m in Sources */,
