@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
-  s.dependency 'ELNHTTPNetworking', '~> 0.0.1'
+  s.dependency 'ELNHTTPNetworking', '~> 0.1.0'
   s.dependency 'ReactiveCocoa', '~> 2.5'
 end
