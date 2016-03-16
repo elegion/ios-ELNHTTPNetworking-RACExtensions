@@ -9,6 +9,7 @@
 @import Foundation;
 
 @protocol ELNHTTPStubManager;
+@protocol ELNHTTPCacheManager;
 @class AFHTTPRequestSerializer;
 @class AFHTTPResponseSerializer;
 
@@ -38,5 +39,7 @@
 - (dispatch_queue_t)completionQueue;
 /// Менеджер для моков.
 @property (readonly, nonatomic) id<ELNHTTPStubManager> stubManager;
+/// Менеджер оффлайн-кеша.
+@property (readonly, nonatomic) id<ELNHTTPCacheManager> cacheManager;
 
 @end

@@ -14,6 +14,7 @@
 @class AFHTTPSessionManager;
 @class ELNAPIResponseContext;
 @class ELNResponseMappingResult;
+@protocol ELNHTTPCacheManager;
 @protocol ELNHTTPClientConfiguration;
 @protocol ELNHTTPRequest;
 
@@ -46,6 +47,11 @@ typedef void (^ELNHTTPRequestCompletionBlock)(id responseObject, NSError *error,
  и возвращает ошибку сериализации или ошибку сети.
  */
 - (ELNResponseMappingResult *)mapRequest:(id<ELNHTTPRequest>)request response:(NSURLResponse *)response responseObject:(id)responseObject error:(NSError *)error;
+/**
+ Нужно ли использовать закешированный ответ на запрос при конкретной ошибке.
+ По умолчанию YES при получении сетевой ошибки (NSURLErrorDomain, соответствующие коды).
+ */
+- (BOOL)shouldUseCachedResponseForRequest:(id<ELNHTTPRequest>)request error:(NSError *)error;
 
 @end
 
@@ -60,6 +66,9 @@ typedef void (^ELNHTTPRequestCompletionBlock)(id responseObject, NSError *error,
 
 /// Менеджер сессии, на основе которого работает клиент.
 @property (readonly, nonatomic) AFHTTPSessionManager *sessionManager;
+
+/// Менеджер оффлайн-кеша.
+@property (readonly, nonatomic) id<ELNHTTPCacheManager> cacheManager;
 
 /// Отправка запроса.
 - (NSURLSessionTask *)sendRequest:(id<ELNHTTPRequest>)request withCompletion:(ELNHTTPRequestCompletionBlock)completion;

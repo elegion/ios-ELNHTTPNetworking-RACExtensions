@@ -33,5 +33,7 @@
 - (Class<MTLJSONSerializing>)responseClass;
 /// Базовый URL для конкретного запроса.
 - (NSString *)baseURL;
+/// Кешируются ли ответы для данного запроса.
+- (BOOL)isCached;
 
 @end

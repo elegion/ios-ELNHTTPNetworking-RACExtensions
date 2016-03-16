@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/elegion/ios-podspecs.git'
 
 target 'ELNHTTPNetworking-RACExtensions_Example', :exclusive => true do
-    pod 'ELNHTTPNetworking', '~> 0.1.0'
+    pod 'ELNHTTPNetworking', '~> 0.2.0'
     pod 'ReactiveCocoa', '~> 2.5'
 end
 
 target 'ELNHTTPNetworking-RACExtensions_Tests', :exclusive => true do
-    pod 'ELNHTTPNetworking', '~> 0.1.0'
+    pod 'ELNHTTPNetworking', '~> 0.2.0'
     pod 'ReactiveCocoa', '~> 2.5'
 end

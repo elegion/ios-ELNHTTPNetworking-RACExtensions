@@ -7,6 +7,7 @@
 //
 
 #import "AFNetworking.h"
+#import "ELNHTTPCacheManager.h"
 #import "ELNHTTPClientConfiguration.h"
 #import "ELNHTTPClient.h"
 #import "ELNHTTPRequest.h"
@@ -25,12 +26,36 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
     return queue;
 }
 
+BOOL ELNHTTPClientIsErrorNetwork(NSError* error) {
+    if ([error.domain isEqualToString:NSURLErrorDomain]) {
+        switch (error.code) {
+            case NSURLErrorTimedOut:
+            case NSURLErrorCannotFindHost:
+            case NSURLErrorCannotConnectToHost:
+            case NSURLErrorNetworkConnectionLost:
+            case NSURLErrorDNSLookupFailed:
+            case NSURLErrorNotConnectedToInternet:
+            case NSURLErrorInternationalRoamingOff:
+            case NSURLErrorCallIsActive:
+            case NSURLErrorDataNotAllowed:
+                return YES;
+        }
+    }
+    NSError *underlyingError = error.userInfo[NSUnderlyingErrorKey];
+    if (underlyingError) {
+        return ELNHTTPClientIsErrorNetwork(underlyingError);
+    } else {
+        return NO;
+    }
+}
+
 
 @interface ELNHTTPClient ()
 
 @property (copy, nonatomic) NSString *baseURL;
 @property (strong, nonatomic) AFHTTPSessionManager *sessionManager;
 @property (strong, nonatomic) id<ELNHTTPStubManager> stubManager;
+@property (strong, nonatomic) id<ELNHTTPCacheManager> cacheManager;
 
 @end
 
@@ -66,6 +91,9 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
         }
         if ([configuration respondsToSelector:@selector(stubManager)]) {
             _stubManager = configuration.stubManager;
+        }
+        if ([configuration respondsToSelector:@selector(cacheManager)]) {
+            _cacheManager = configuration.cacheManager;
         }
     }
     return self;
@@ -123,7 +151,15 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
 
                 ELNResponseMappingResult *responseMappingResult = [self mapRequest:request response:response responseObject:responseObject error:error];
                 ELNAPIResponseContext *responseContext = [[ELNAPIResponseContext alloc] initWithRequest:urlRequest response:response];
-                
+
+                if (self.cacheManager != nil && [request respondsToSelector:@selector(isCached)] && [request isCached]) {
+                    if (!error && responseMappingResult.responseObject) {
+                        [self.cacheManager cacheResponseObject:responseMappingResult.responseObject forRequest:request];
+                    } else if (error && [self shouldUseCachedResponseForRequest:request error:error]) {
+                        responseMappingResult.responseObject = [self.cacheManager responseObjectForRequest:request];
+                    }
+                }
+
                 dispatch_async(weakSelf.sessionManager.completionQueue ?: dispatch_get_main_queue(), ^{
                     completion(responseMappingResult.responseObject, responseMappingResult.error, responseContext);
                 });
@@ -150,13 +186,17 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
         responseClass = [request responseClass];
     }
     NSError *serializationError;
-    
     resultObject = ELNObjectFromJSON(responseObject, responseClass, &serializationError);
     if (serializationError) {
         resultError = serializationError;
     }
     
     return [[ELNResponseMappingResult alloc] initWithResponseObject:resultObject error:resultError];
+}
+
+- (BOOL)shouldUseCachedResponseForRequest:(id<ELNHTTPRequest>)request error:(NSError *)error
+{
+    return ELNHTTPClientIsErrorNetwork(error);
 }
 
 @end

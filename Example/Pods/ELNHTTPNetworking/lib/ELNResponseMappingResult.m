@@ -8,13 +8,6 @@
 
 #import "ELNResponseMappingResult.h"
 
-@interface ELNResponseMappingResult ()
-
-@property (strong, nonatomic) id responseObject;
-@property (strong, nonatomic) NSError *error;
-
-@end
-
 @implementation ELNResponseMappingResult
 
 - (instancetype)initWithResponseObject:(id)responseObject error:(NSError *)error

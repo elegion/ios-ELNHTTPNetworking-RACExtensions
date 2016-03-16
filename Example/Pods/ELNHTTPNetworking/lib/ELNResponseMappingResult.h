@@ -14,8 +14,8 @@
 - (instancetype)initWithResponseObject:(id)responseObject error:(NSError *)error;
 
 /// Преобразованный объект ответа
-@property (readonly, nonatomic) id responseObject;
+@property (strong, nonatomic) id responseObject;
 /// Преобразованная ошибка
-@property (readonly, nonatomic) NSError *error;
+@property (strong, nonatomic) NSError *error;
 
 @end

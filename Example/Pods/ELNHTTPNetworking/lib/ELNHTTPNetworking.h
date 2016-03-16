@@ -8,6 +8,9 @@
 
 #import "ELNAPIConstants.h"
 #import "ELNAPIResponseContext.h"
+#import "ELNDefaultHTTPCacheManager.h"
+#import "ELNDefaultHTTPStubManager.h"
+#import "ELNHTTPCacheManager.h"
 #import "ELNHTTPClient.h"
 #import "ELNHTTPClientConfiguration.h"
 #import "ELNHTTPRequest.h"
