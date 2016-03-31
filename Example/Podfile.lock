@@ -19,6 +19,9 @@ PODS:
     - Mantle (~> 2.0.6)
     - OHHTTPStubs (~> 4.7.0)
     - PINCache (~> 2.2)
+  - ELNHTTPNetworking-RACExtensions (0.1.0):
+    - ELNHTTPNetworking (~> 0.2.0)
+    - ReactiveCocoa (~> 2.5)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -45,12 +48,16 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
-  - ELNHTTPNetworking (~> 0.2.0)
-  - ReactiveCocoa (~> 2.5)
+  - ELNHTTPNetworking-RACExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  ELNHTTPNetworking-RACExtensions:
+    :path: ../
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  ELNHTTPNetworking: 399d23e3d32771e335783590adebb2de8ba01860
+  ELNHTTPNetworking: d65120ffa6631e74bad982956e7f4befb2334265
+  ELNHTTPNetworking-RACExtensions: a3b89227b4a14f90a5fc3570e5b1173a61e0d364
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
   PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
