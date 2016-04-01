@@ -118,7 +118,7 @@
 		5523BC2EFC26A5D6447BDDB5ED116936 /* RACValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DDFEF780125183C74C5233C8A468D0 /* RACValueTransformer.m */; };
 		562AF4B5066963A2858C646038CDC0EB /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE786F184AF67B468977557ECCBF3F0 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58141512D77A83451727C57431F82BF7 /* RACSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A14D34C260DEBD96D8617E6C1B9A37CD /* RACSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58278772CF4D4AEAA6AAD61FB885E03E /* ELNHTTPNetworking-RACExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8412FFCA1A65C6C98FBACFB219503AF /* ELNHTTPNetworking-RACExtensions-dummy.m */; };
+		58278772CF4D4AEAA6AAD61FB885E03E /* ELNHTTPNetworking-RACExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4111AC85160BDC5B16D2EC7DD5BA801D /* ELNHTTPNetworking-RACExtensions-dummy.m */; };
 		58D9E2CD7B74369D4D16DCB8B043A3E2 /* RACSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 133A6617EFD5298408DB19113B0771DC /* RACSequence.m */; };
 		5A3F8514C42F896CBDBDF3B1014C1F5B /* NSUserDefaults+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4878B93D52379BE0C600CE433B25D67F /* NSUserDefaults+RACSupport.m */; };
 		5A54EA33A9691D469CD73F498CEB7A86 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10B132FBE27E0C968DCA6A39EC02C1 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -202,7 +202,7 @@
 		9B236FFF2EFDA9615E4F033DE393A750 /* ELNJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B549907EAECE2516E56043248F6DBFEE /* ELNJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B41427AAB3F19296DFF4AB05F345EE1 /* NSFileHandle+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C175D188379F3404C96C877C64E1D /* NSFileHandle+RACSupport.m */; };
 		9B4D26B26E9D9397ADDAEF2558A2FE4F /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = F09FFF7223163D8D8C4E0CE55DF8D795 /* RACDynamicSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BC2F168348544871E56B893739A931E /* ELNHTTPClient+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F2C2EA07EB63BEEB16A2078702BCA6 /* ELNHTTPClient+RACExtensions.m */; };
+		9BC2F168348544871E56B893739A931E /* ELNHTTPClient+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B250329843A8E3028B1D4BB77425E4AA /* ELNHTTPClient+RACExtensions.m */; };
 		9CDD607A38CE1B37D1E570822EF5FBB2 /* ELNHTTPCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F68065D69F60D22D21EA4B20D3DEBF5E /* ELNHTTPCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A029E8AF2DDB3EE56184AE8374E28C08 /* UIGestureRecognizer+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7EC9B1D66621D680A8534D631061BA /* UIGestureRecognizer+RACSignalSupport.m */; };
 		A041A676A7576BADF51BE6D4A61CB9C6 /* ELNAPIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654C56B7A1355CF2C74ABCD95B3D91E /* ELNAPIUtils.m */; };
@@ -311,7 +311,7 @@
 		F3D16708BCEBE632512FB4B75E840194 /* RACEagerSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF11DBB4C80ED311883E011D909D040 /* RACEagerSequence.m */; };
 		F494DC044F2C222CB9D8998F7F560A75 /* UITableViewCell+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FAFE5F1DDBBF20D724C8DA9053DCBA /* UITableViewCell+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4E6EF222C3CC20E1959C1246B7202A1 /* RACReturnSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1890A853527C375B7789E67559DF3D7F /* RACReturnSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5030EDE8CE1AD7B140CE905AC60AF2A /* ELNHTTPClient+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CA2A0AB6B0F4FEDA02A4BB35EDC15 /* ELNHTTPClient+RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5030EDE8CE1AD7B140CE905AC60AF2A /* ELNHTTPClient+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 208413979C655A09943915763A5DC9BD /* ELNHTTPClient+RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6F0BF420E361D8C97A54B40FB4339D3 /* ELNDefaultHTTPCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0652585A3FB388A9CD28F6BE6A39A14 /* ELNDefaultHTTPCacheManager.m */; };
 		F729F15EF335238FDBD3DF8FFBAD35DA /* RACSubscriptionScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35121F704C67B87C63747CCC9A18477C /* RACSubscriptionScheduler.m */; };
 		F8063EE06DAD9F775878E7CF0F424DFA /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75498CB31C37A9EBD20BCF68A07E1BF9 /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -507,12 +507,10 @@
 		148D79959A2161B667F46450EC9B8CF2 /* ELNHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNHTTPClient.h; path = lib/ELNHTTPClient.h; sourceTree = "<group>"; };
 		1544795B7586DE631C170E4A3AF7A966 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		16534FBA4727BF3D6C7A971BAFC10A41 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		1659F6A526FB2722DD92025376E29B59 /* ELNHTTPNetworking-RACExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ELNHTTPNetworking-RACExtensions.xcconfig"; sourceTree = "<group>"; };
 		178340D7AFA68DB32ACF1C2DE6412F75 /* RACTargetQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTargetQueueScheduler.h; path = ReactiveCocoa/RACTargetQueueScheduler.h; sourceTree = "<group>"; };
 		17F364522371EE1120ACD4BA37BD4585 /* UIStepper+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+RACSignalSupport.m"; path = "ReactiveCocoa/UIStepper+RACSignalSupport.m"; sourceTree = "<group>"; };
 		1849096945947ED93B4EF06E91998D0D /* UITextView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+RACSignalSupport.h"; path = "ReactiveCocoa/UITextView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		1890A853527C375B7789E67559DF3D7F /* RACReturnSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReturnSignal.h; path = ReactiveCocoa/RACReturnSignal.h; sourceTree = "<group>"; };
-		1945BCD060581E63E9C0F1B5BFE16A91 /* ELNHTTPNetworking-RACExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPNetworking-RACExtensions-prefix.pch"; sourceTree = "<group>"; };
 		19CBF6607323B796FD8C0667C7890317 /* ELNHTTPNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPNetworking-prefix.pch"; sourceTree = "<group>"; };
 		1A7617ED065765562B535D0B1BB825B1 /* ELNHTTPNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNHTTPNetworking.h; path = lib/ELNHTTPNetworking.h; sourceTree = "<group>"; };
 		1B05B82AB8FF8C0989A1ED197D9FA1C5 /* RACImmediateScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACImmediateScheduler.h; path = ReactiveCocoa/RACImmediateScheduler.h; sourceTree = "<group>"; };
@@ -522,6 +520,7 @@
 		1E7EC9B1D66621D680A8534D631061BA /* UIGestureRecognizer+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+RACSignalSupport.m"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.m"; sourceTree = "<group>"; };
 		1F6761E101809E1956F6471983E30D95 /* UIControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupport.m"; path = "ReactiveCocoa/UIControl+RACSignalSupport.m"; sourceTree = "<group>"; };
 		2035FA6510B522D02CDF156765259D44 /* Pods-ELNHTTPNetworking-RACExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNHTTPNetworking-RACExtensions_Example-resources.sh"; sourceTree = "<group>"; };
+		208413979C655A09943915763A5DC9BD /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
 		20B982E0BA11015835F0DA8E0481E00C /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
 		20D3AB6A893464570FAF6C8B3C2075C0 /* RACSubscriptingAssignmentTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSubscriptingAssignmentTrampoline.m; path = ReactiveCocoa/RACSubscriptingAssignmentTrampoline.m; sourceTree = "<group>"; };
 		21B827DACFF8A18EC3CAB5739E26A955 /* NSDictionary+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSDictionary+RACSequenceAdditions.h"; sourceTree = "<group>"; };
@@ -573,6 +572,7 @@
 		36727B69497C7E8CBD17F0B998E7C636 /* RACChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACChannel.h; path = ReactiveCocoa/RACChannel.h; sourceTree = "<group>"; };
 		3705E9D5E84AF6861585B95F0B13086E /* Pods-ELNHTTPNetworking-RACExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNHTTPNetworking-RACExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		37647E2BC688C25B2D725939E1136105 /* RACCompoundDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCompoundDisposable.h; path = ReactiveCocoa/RACCompoundDisposable.h; sourceTree = "<group>"; };
+		376A5837FE02E1CF66837F9B0AF56194 /* ELNHTTPNetworking-RACExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ELNHTTPNetworking-RACExtensions.xcconfig"; sourceTree = "<group>"; };
 		3A668078D7F7E313D612A9BA26733F76 /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
 		3B3EB1EF530F17784403DD9DFD11A5FC /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACSignalProvider.d; path = ReactiveCocoa/RACSignalProvider.d; sourceTree = "<group>"; };
 		3CE31D18DD1F02E0EA5A2933ADB900BB /* NSString+RACKeyPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACKeyPathUtilities.m"; path = "ReactiveCocoa/NSString+RACKeyPathUtilities.m"; sourceTree = "<group>"; };
@@ -583,6 +583,7 @@
 		3F5704658C38FED1791B5F53D18E4B25 /* RACCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCommand.h; path = ReactiveCocoa/RACCommand.h; sourceTree = "<group>"; };
 		3FCE1CE4A380B9A38555B2D0E097D6E8 /* Pods-ELNHTTPNetworking-RACExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNHTTPNetworking-RACExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4094025A8A5A80A6D33445748B35BFE4 /* UIButton+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+RACCommandSupport.m"; path = "ReactiveCocoa/UIButton+RACCommandSupport.m"; sourceTree = "<group>"; };
+		4111AC85160BDC5B16D2EC7DD5BA801D /* ELNHTTPNetworking-RACExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPNetworking-RACExtensions-dummy.m"; sourceTree = "<group>"; };
 		41E6DD5E8762BC01002C52EF027552CC /* RACSignal+Operations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RACSignal+Operations.m"; path = "ReactiveCocoa/RACSignal+Operations.m"; sourceTree = "<group>"; };
 		42AB082B2041AD01855D7AB7998A7520 /* RACScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Subclass.h"; path = "ReactiveCocoa/RACScheduler+Subclass.h"; sourceTree = "<group>"; };
 		4647C1B38728C9602E82B4AAFE655CA3 /* RACTestScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTestScheduler.h; path = ReactiveCocoa/RACTestScheduler.h; sourceTree = "<group>"; };
@@ -652,7 +653,6 @@
 		79D034772D9B86D96CF589102FDEB86D /* RACImmediateScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACImmediateScheduler.m; path = ReactiveCocoa/RACImmediateScheduler.m; sourceTree = "<group>"; };
 		7A3458C31003F35CA1CDC38872ED25DB /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
 		7C5D5AB5628DD1BF996494CE67F630BA /* RACSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubject.h; path = ReactiveCocoa/RACSubject.h; sourceTree = "<group>"; };
-		7C6CA2A0AB6B0F4FEDA02A4BB35EDC15 /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
 		7DAAD5A6FEA3C209D048F913074B6035 /* NSURLConnection+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+RACSupport.m"; path = "ReactiveCocoa/NSURLConnection+RACSupport.m"; sourceTree = "<group>"; };
 		7E03C6C3F80E613240D9C428F201E54E /* ELNAPIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNAPIConstants.h; path = lib/ELNAPIConstants.h; sourceTree = "<group>"; };
 		7E2A1BCC6B90A6A622E25BABE7134894 /* OHPathHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHPathHelpers.h; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.h; sourceTree = "<group>"; };
@@ -695,7 +695,6 @@
 		A2B75383B59FBEB0E11AC91C8717E3D9 /* OHHTTPStubs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHHTTPStubs.xcconfig; sourceTree = "<group>"; };
 		A4AFAF2091C86C0C669479DA4C63AAA1 /* NSObject+RACDeallocating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACDeallocating.h"; path = "ReactiveCocoa/NSObject+RACDeallocating.h"; sourceTree = "<group>"; };
 		A6EDDBB037D3213D86D08CDDFDA5FA91 /* RACEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEvent.m; path = ReactiveCocoa/RACEvent.m; sourceTree = "<group>"; };
-		A6F2C2EA07EB63BEEB16A2078702BCA6 /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
 		A72BE56F28AD885B724D5920F3A6DF63 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		A7FC62DA1BCC0758BD1499BC587F3762 /* RACScopedDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACScopedDisposable.h; path = ReactiveCocoa/RACScopedDisposable.h; sourceTree = "<group>"; };
 		A8B06A1A8A32994F5512B9DA13C42446 /* UIAlertView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+RACSignalSupport.m"; path = "ReactiveCocoa/UIAlertView+RACSignalSupport.m"; sourceTree = "<group>"; };
@@ -705,6 +704,7 @@
 		AD30ACC99C840B285A8A55440162FFCF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		AD40FA7EBA3E9DB388DA1365C03BAE80 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		AE1BEA83A7F4030B31E182A5B90F5BA9 /* Pods-ELNHTTPNetworking-RACExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELNHTTPNetworking-RACExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF8CDCB6F8261195A6D76A547F04A699 /* ELNHTTPNetworking-RACExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPNetworking-RACExtensions-prefix.pch"; sourceTree = "<group>"; };
 		AFB26D19160A143C5098A1C6C614E03A /* NSUserDefaults+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+RACSupport.h"; path = "ReactiveCocoa/NSUserDefaults+RACSupport.h"; sourceTree = "<group>"; };
 		AFDA7CCC5F23344E93F477E0535454FC /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
 		B031C439AF1F3E4E80C7B34B94D9BDCA /* Pods-ELNHTTPNetworking-RACExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELNHTTPNetworking-RACExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -713,6 +713,7 @@
 		B1ED740760CD275AF48A65CBA1BC36DA /* Pods-ELNHTTPNetworking-RACExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNHTTPNetworking-RACExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B219CCD8F3591794FD49B179D80CAF99 /* RACScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACScheduler.h; path = ReactiveCocoa/RACScheduler.h; sourceTree = "<group>"; };
 		B229915C368E120456CBF4AA541064E1 /* libELNHTTPNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNHTTPNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B250329843A8E3028B1D4BB77425E4AA /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
 		B3C60D1CE0E41A68ABA1CC8C668E9332 /* RACKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOProxy.h; path = ReactiveCocoa/RACKVOProxy.h; sourceTree = "<group>"; };
 		B549907EAECE2516E56043248F6DBFEE /* ELNJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNJSONSerialization.h; path = lib/ELNJSONSerialization.h; sourceTree = "<group>"; };
 		B5B3422BCD523C891DC51589A27A6D76 /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
@@ -783,7 +784,6 @@
 		E5E73C23C803A6498582DB4A93B917C1 /* PINCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINCache.m; path = PINCache/PINCache.m; sourceTree = "<group>"; };
 		E643A8CE902D2AF2F9F78F521BFDC0B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		E7E63681598F6C0C1815D5146FA7F1CD /* RACEmptySignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySignal.m; path = ReactiveCocoa/RACEmptySignal.m; sourceTree = "<group>"; };
-		E8412FFCA1A65C6C98FBACFB219503AF /* ELNHTTPNetworking-RACExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPNetworking-RACExtensions-dummy.m"; sourceTree = "<group>"; };
 		E89722A2BC144600E4C4B01433B28970 /* UICollectionReusableView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+RACSignalSupport.h"; path = "ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		E897E489465561AB0A06DE108B13DCCF /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
 		E939EB41D4D827C5C4BDBDB103D74E24 /* RACUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnit.m; path = ReactiveCocoa/RACUnit.m; sourceTree = "<group>"; };
@@ -971,6 +971,15 @@
 				C313130D9A4023DC2B227FDAEB0BB384 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1267E7500270C112FD973B6C8E350033 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				208413979C655A09943915763A5DC9BD /* ELNHTTPClient+RACExtensions.h */,
+				B250329843A8E3028B1D4BB77425E4AA /* ELNHTTPClient+RACExtensions.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		14C75D6D46C7CC95930EA692243BBB4B /* Mantle */ = {
@@ -1220,20 +1229,10 @@
 			path = PINCache;
 			sourceTree = "<group>";
 		};
-		62766A2D5A1DBE6F4B8B1AE6D0EEE313 /* ELNHTTPNetworking-RACExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				D8DD923C2872FC06E0181FF8707BF84E /* Pod */,
-				BCFCDC4887718F14115D6D157F44ED7E /* Support Files */,
-			);
-			name = "ELNHTTPNetworking-RACExtensions";
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		62A4A9B4F73BAEA524C4B3AD32F57F26 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				62766A2D5A1DBE6F4B8B1AE6D0EEE313 /* ELNHTTPNetworking-RACExtensions */,
+				CB8D77568CEFD108207F80233A68CE1B /* ELNHTTPNetworking-RACExtensions */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -1432,17 +1431,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCFCDC4887718F14115D6D157F44ED7E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1659F6A526FB2722DD92025376E29B59 /* ELNHTTPNetworking-RACExtensions.xcconfig */,
-				E8412FFCA1A65C6C98FBACFB219503AF /* ELNHTTPNetworking-RACExtensions-dummy.m */,
-				1945BCD060581E63E9C0F1B5BFE16A91 /* ELNHTTPNetworking-RACExtensions-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ELNHTTPNetworking-RACExtensions";
-			sourceTree = "<group>";
-		};
 		BE46B340F35FA1C32B58F5F078C5399E /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -1479,6 +1467,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CB8D77568CEFD108207F80233A68CE1B /* ELNHTTPNetworking-RACExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				1267E7500270C112FD973B6C8E350033 /* Source */,
+				F00D9DC60B58F49BA90CCB5D4465D7F4 /* Support Files */,
+			);
+			name = "ELNHTTPNetworking-RACExtensions";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CE4AB346AA2F6F6D571371DECA5F3E77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1501,15 +1499,6 @@
 				563564A4FC1071D9EE0B812696B1CDF1 /* metamacros.h */,
 			);
 			name = extobjc;
-			sourceTree = "<group>";
-		};
-		D8DD923C2872FC06E0181FF8707BF84E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7C6CA2A0AB6B0F4FEDA02A4BB35EDC15 /* ELNHTTPClient+RACExtensions.h */,
-				A6F2C2EA07EB63BEEB16A2078702BCA6 /* ELNHTTPClient+RACExtensions.m */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		E252C214F28A8C6C3A1D169BFDFF52AA /* Support Files */ = {
@@ -1545,6 +1534,17 @@
 			);
 			name = "Pods-ELNHTTPNetworking-RACExtensions_Example";
 			path = "Target Support Files/Pods-ELNHTTPNetworking-RACExtensions_Example";
+			sourceTree = "<group>";
+		};
+		F00D9DC60B58F49BA90CCB5D4465D7F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				376A5837FE02E1CF66837F9B0AF56194 /* ELNHTTPNetworking-RACExtensions.xcconfig */,
+				4111AC85160BDC5B16D2EC7DD5BA801D /* ELNHTTPNetworking-RACExtensions-dummy.m */,
+				AF8CDCB6F8261195A6D76A547F04A699 /* ELNHTTPNetworking-RACExtensions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ELNHTTPNetworking-RACExtensions";
 			sourceTree = "<group>";
 		};
 		F7C733FCB621898F4C19C319B21A535F /* Pods-ELNHTTPNetworking-RACExtensions_Tests */ = {
@@ -2539,7 +2539,7 @@
 		};
 		6B95D5A83C4F9141F599011B8DAE19EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1659F6A526FB2722DD92025376E29B59 /* ELNHTTPNetworking-RACExtensions.xcconfig */;
+			baseConfigurationReference = 376A5837FE02E1CF66837F9B0AF56194 /* ELNHTTPNetworking-RACExtensions.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNHTTPNetworking-RACExtensions/ELNHTTPNetworking-RACExtensions-prefix.pch";
@@ -2592,7 +2592,7 @@
 		};
 		B40CAF429EC6F5D6E3E0FCD05174DE06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1659F6A526FB2722DD92025376E29B59 /* ELNHTTPNetworking-RACExtensions.xcconfig */;
+			baseConfigurationReference = 376A5837FE02E1CF66837F9B0AF56194 /* ELNHTTPNetworking-RACExtensions.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNHTTPNetworking-RACExtensions/ELNHTTPNetworking-RACExtensions-prefix.pch";
