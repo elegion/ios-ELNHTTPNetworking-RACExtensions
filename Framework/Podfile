@@ -1,5 +1,16 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/elegion/ios-podspecs.git'
 
-pod 'ELNHTTPNetworking', '~> 0.2.0'
-pod 'ReactiveCocoa', '~> 2.5'
+target 'ELNHTTPNetworking-RACExtensions' do
+
+  pod 'ELNHTTPNetworking', '~> 0.2.0'
+  pod 'ReactiveCocoa', '~> 2.5'
+
+end
+
+target 'Tests', :exclusive => true do
+    # see https://github.com/CocoaPods/CocoaPods/issues/1411#issuecomment-72558709
+    # this pod is not used by test target, but we need something here to ensure we properly link cocoapods to the test target
+    # this dummy pod is not part of the solution, but since we don't have anything unique to our test target, I added it here to ensure something unique was present
+    pod 'OCMock'
+end

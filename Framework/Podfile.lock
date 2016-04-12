@@ -22,6 +22,7 @@ PODS:
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
+  - OCMock (3.2.2)
   - OHHTTPStubs (4.7.1):
     - OHHTTPStubs/Default (= 4.7.1)
   - OHHTTPStubs/Core (4.7.1)
@@ -46,12 +47,14 @@ PODS:
 
 DEPENDENCIES:
   - ELNHTTPNetworking (~> 0.2.0)
+  - OCMock
   - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   ELNHTTPNetworking: d7e86e0122f3dceaa34f1509606d524b6820c190
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
   PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
