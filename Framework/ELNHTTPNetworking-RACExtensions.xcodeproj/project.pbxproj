@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11267A301CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */; };
+		11267A311CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */; };
+		11267A361CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11267A3E1CBD54ED005F4BED /* ELNHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A3D1CBD54ED005F4BED /* ELNHTTPClientTests.m */; };
+		11267A401CBD54ED005F4BED /* ELNHTTPNetworking_RACExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */; };
+		11267A4A1CBD57F9005F4BED /* DemoClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A491CBD57F9005F4BED /* DemoClientConfiguration.m */; };
+		11267A4D1CBD588D005F4BED /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A4C1CBD588D005F4BED /* DemoModel.m */; };
+		11267A501CBD58E4005F4BED /* DemoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A4F1CBD58E4005F4BED /* DemoRequest.m */; };
+		7B29A34C21770185F50A617B /* libPods-ELNHTTPNetworking-RACExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AFA9A9C1B2A671A26D14C5 /* libPods-ELNHTTPNetworking-RACExtensions.a */; };
+		B7D7D2E189D9EE634FD79A06 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2095C3F77A82F2935ACD96 /* libPods-Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11267A411CBD54ED005F4BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112679F61CBD4F26005F4BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112679FE1CBD4F26005F4BED;
+			remoteInfo = "ELNHTTPNetworking-RACExtensions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03960B714739403B74B9BFD7 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNHTTPNetworking_RACExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11267A2B1CBD53DB005F4BED /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
+		11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
+		11267A331CBD541B005F4BED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPNetworking_RACExtensions.h; sourceTree = SOURCE_ROOT; };
+		11267A3B1CBD54ED005F4BED /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11267A3D1CBD54ED005F4BED /* ELNHTTPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELNHTTPClientTests.m; sourceTree = "<group>"; };
+		11267A3F1CBD54ED005F4BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11267A481CBD57F9005F4BED /* DemoClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoClientConfiguration.h; sourceTree = "<group>"; };
+		11267A491CBD57F9005F4BED /* DemoClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoClientConfiguration.m; sourceTree = "<group>"; };
+		11267A4B1CBD588D005F4BED /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		11267A4C1CBD588D005F4BED /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		11267A4E1CBD58E4005F4BED /* DemoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRequest.h; sourceTree = "<group>"; };
+		11267A4F1CBD58E4005F4BED /* DemoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRequest.m; sourceTree = "<group>"; };
+		83AFA9A9C1B2A671A26D14C5 /* libPods-ELNHTTPNetworking-RACExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNHTTPNetworking-RACExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927367DCAD974D1F80F98E86 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3CF379A990259EDB989E4BE /* Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNHTTPNetworking-RACExtensions/Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig"; sourceTree = "<group>"; };
+		D7432E6F368D19E3CF9367E3 /* Pods-ELNHTTPNetworking-RACExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNHTTPNetworking-RACExtensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNHTTPNetworking-RACExtensions/Pods-ELNHTTPNetworking-RACExtensions.release.xcconfig"; sourceTree = "<group>"; };
+		DF2095C3F77A82F2935ACD96 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112679FB1CBD4F26005F4BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B29A34C21770185F50A617B /* libPods-ELNHTTPNetworking-RACExtensions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11267A381CBD54ED005F4BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11267A401CBD54ED005F4BED /* ELNHTTPNetworking_RACExtensions.framework in Frameworks */,
+				B7D7D2E189D9EE634FD79A06 /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112679F51CBD4F26005F4BED = {
+			isa = PBXGroup;
+			children = (
+				11267A2B1CBD53DB005F4BED /* Default.xcconfig */,
+				11267A2D1CBD5407005F4BED /* Source */,
+				11267A3C1CBD54ED005F4BED /* Tests */,
+				11267A001CBD4F26005F4BED /* Products */,
+				593C3F4C2820ADC8B9D003D9 /* Pods */,
+				321A54287C796B68B7CA60E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11267A001CBD4F26005F4BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */,
+				11267A3B1CBD54ED005F4BED /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11267A2D1CBD5407005F4BED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */,
+				11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */,
+				11267A321CBD540E005F4BED /* Supporting Files */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		11267A321CBD540E005F4BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */,
+				11267A331CBD541B005F4BED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11267A3C1CBD54ED005F4BED /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11267A3D1CBD54ED005F4BED /* ELNHTTPClientTests.m */,
+				11267A471CBD57D2005F4BED /* Mocks */,
+				11267A461CBD56EC005F4BED /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		11267A461CBD56EC005F4BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11267A3F1CBD54ED005F4BED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11267A471CBD57D2005F4BED /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				11267A4B1CBD588D005F4BED /* DemoModel.h */,
+				11267A4C1CBD588D005F4BED /* DemoModel.m */,
+				11267A4E1CBD58E4005F4BED /* DemoRequest.h */,
+				11267A4F1CBD58E4005F4BED /* DemoRequest.m */,
+				11267A481CBD57F9005F4BED /* DemoClientConfiguration.h */,
+				11267A491CBD57F9005F4BED /* DemoClientConfiguration.m */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		321A54287C796B68B7CA60E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83AFA9A9C1B2A671A26D14C5 /* libPods-ELNHTTPNetworking-RACExtensions.a */,
+				DF2095C3F77A82F2935ACD96 /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593C3F4C2820ADC8B9D003D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF379A990259EDB989E4BE /* Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig */,
+				D7432E6F368D19E3CF9367E3 /* Pods-ELNHTTPNetworking-RACExtensions.release.xcconfig */,
+				03960B714739403B74B9BFD7 /* Pods-Tests.debug.xcconfig */,
+				927367DCAD974D1F80F98E86 /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		112679FC1CBD4F26005F4BED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11267A301CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h in Headers */,
+				11267A361CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		112679FE1CBD4F26005F4BED /* ELNHTTPNetworking-RACExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11267A071CBD4F26005F4BED /* Build configuration list for PBXNativeTarget "ELNHTTPNetworking-RACExtensions" */;
+			buildPhases = (
+				A157AC64624DD5668A1038AA /* Check Pods Manifest.lock */,
+				112679FA1CBD4F26005F4BED /* Sources */,
+				112679FB1CBD4F26005F4BED /* Frameworks */,
+				112679FC1CBD4F26005F4BED /* Headers */,
+				112679FD1CBD4F26005F4BED /* Resources */,
+				DE93D6A33863756934E459A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELNHTTPNetworking-RACExtensions";
+			productName = "ELNHTTPNetworking-RACExtensions";
+			productReference = 112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11267A3A1CBD54ED005F4BED /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11267A451CBD54ED005F4BED /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				14C29CBBF27E4844258F0D1E /* Check Pods Manifest.lock */,
+				11267A371CBD54ED005F4BED /* Sources */,
+				11267A381CBD54ED005F4BED /* Frameworks */,
+				11267A391CBD54ED005F4BED /* Resources */,
+				2018CE0FD571C93427611745 /* Embed Pods Frameworks */,
+				9A89858808B002241CA7DF48 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11267A421CBD54ED005F4BED /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 11267A3B1CBD54ED005F4BED /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112679F61CBD4F26005F4BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "e-legion";
+				TargetAttributes = {
+					112679FE1CBD4F26005F4BED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					11267A3A1CBD54ED005F4BED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 112679F91CBD4F26005F4BED /* Build configuration list for PBXProject "ELNHTTPNetworking-RACExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 112679F51CBD4F26005F4BED;
+			productRefGroup = 11267A001CBD4F26005F4BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112679FE1CBD4F26005F4BED /* ELNHTTPNetworking-RACExtensions */,
+				11267A3A1CBD54ED005F4BED /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112679FD1CBD4F26005F4BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11267A391CBD54ED005F4BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C29CBBF27E4844258F0D1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2018CE0FD571C93427611745 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A89858808B002241CA7DF48 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A157AC64624DD5668A1038AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE93D6A33863756934E459A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNHTTPNetworking-RACExtensions/Pods-ELNHTTPNetworking-RACExtensions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112679FA1CBD4F26005F4BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11267A311CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11267A371CBD54ED005F4BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11267A4D1CBD588D005F4BED /* DemoModel.m in Sources */,
+				11267A3E1CBD54ED005F4BED /* ELNHTTPClientTests.m in Sources */,
+				11267A501CBD58E4005F4BED /* DemoRequest.m in Sources */,
+				11267A4A1CBD57F9005F4BED /* DemoClientConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11267A421CBD54ED005F4BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112679FE1CBD4F26005F4BED /* ELNHTTPNetworking-RACExtensions */;
+			targetProxy = 11267A411CBD54ED005F4BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11267A051CBD4F26005F4BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11267A061CBD4F26005F4BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11267A081CBD4F26005F4BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CF379A990259EDB989E4BE /* Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNHTTPNetworking-RACExtensions";
+				PRODUCT_NAME = ELNHTTPNetworking_RACExtensions;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		11267A091CBD4F26005F4BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7432E6F368D19E3CF9367E3 /* Pods-ELNHTTPNetworking-RACExtensions.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNHTTPNetworking-RACExtensions";
+				PRODUCT_NAME = ELNHTTPNetworking_RACExtensions;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		11267A431CBD54ED005F4BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03960B714739403B74B9BFD7 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11267A441CBD54ED005F4BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927367DCAD974D1F80F98E86 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112679F91CBD4F26005F4BED /* Build configuration list for PBXProject "ELNHTTPNetworking-RACExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11267A051CBD4F26005F4BED /* Debug */,
+				11267A061CBD4F26005F4BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11267A071CBD4F26005F4BED /* Build configuration list for PBXNativeTarget "ELNHTTPNetworking-RACExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11267A081CBD4F26005F4BED /* Debug */,
+				11267A091CBD4F26005F4BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11267A451CBD54ED005F4BED /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11267A431CBD54ED005F4BED /* Debug */,
+				11267A441CBD54ED005F4BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112679F61CBD4F26005F4BED /* Project object */;
+}

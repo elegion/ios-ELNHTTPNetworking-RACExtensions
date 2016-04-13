@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - ELNHTTPNetworking (0.2.1):
+    - AFNetworking (~> 3.0.4)
+    - Mantle (~> 2.0.6)
+    - OHHTTPStubs (~> 4.7.0)
+    - PINCache (~> 2.2)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - OCMock (3.2.2)
+  - OHHTTPStubs (4.7.1):
+    - OHHTTPStubs/Default (= 4.7.1)
+  - OHHTTPStubs/Core (4.7.1)
+  - OHHTTPStubs/Default (4.7.1):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.7.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.7.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.7.1)
+  - PINCache (2.2.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - ELNHTTPNetworking (~> 0.2.0)
+  - OCMock
+  - ReactiveCocoa (~> 2.5)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  ELNHTTPNetworking: d7e86e0122f3dceaa34f1509606d524b6820c190
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+COCOAPODS: 0.39.0
