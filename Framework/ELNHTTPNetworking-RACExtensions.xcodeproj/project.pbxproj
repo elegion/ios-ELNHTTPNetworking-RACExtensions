@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		03960B714739403B74B9BFD7 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNHTTPNetworking_RACExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11267A2B1CBD53DB005F4BED /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		11267A2B1CBD53DB005F4BED /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Default.xcconfig; path = ../Framework/Default.xcconfig; sourceTree = "<group>"; };
 		11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
 		11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
 		11267A331CBD541B005F4BED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -77,7 +77,6 @@
 		112679F51CBD4F26005F4BED = {
 			isa = PBXGroup;
 			children = (
-				11267A2B1CBD53DB005F4BED /* Default.xcconfig */,
 				11267A2D1CBD5407005F4BED /* Source */,
 				11267A3C1CBD54ED005F4BED /* Tests */,
 				11267A001CBD4F26005F4BED /* Products */,
@@ -110,6 +109,7 @@
 		11267A321CBD540E005F4BED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11267A2B1CBD53DB005F4BED /* Default.xcconfig */,
 				11267A331CBD541B005F4BED /* Info.plist */,
 			);
 			name = "Supporting Files";
