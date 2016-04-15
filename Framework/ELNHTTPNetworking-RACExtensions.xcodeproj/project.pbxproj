@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11267A301CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */; };
+		11267A301CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11267A311CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */; };
-		11267A361CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11267A3E1CBD54ED005F4BED /* ELNHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A3D1CBD54ED005F4BED /* ELNHTTPClientTests.m */; };
 		11267A401CBD54ED005F4BED /* ELNHTTPNetworking_RACExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112679FF1CBD4F26005F4BED /* ELNHTTPNetworking_RACExtensions.framework */; };
 		11267A4A1CBD57F9005F4BED /* DemoClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A491CBD57F9005F4BED /* DemoClientConfiguration.m */; };
 		11267A4D1CBD588D005F4BED /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A4C1CBD588D005F4BED /* DemoModel.m */; };
 		11267A501CBD58E4005F4BED /* DemoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11267A4F1CBD58E4005F4BED /* DemoRequest.m */; };
+		1192D58B1CC11FE300BBBD50 /* ELNHTTPNetworking_RACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1192D58A1CC11FE300BBBD50 /* ELNHTTPNetworking_RACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B29A34C21770185F50A617B /* libPods-ELNHTTPNetworking-RACExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AFA9A9C1B2A671A26D14C5 /* libPods-ELNHTTPNetworking-RACExtensions.a */; };
 		B7D7D2E189D9EE634FD79A06 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2095C3F77A82F2935ACD96 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,6 @@
 		11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELNHTTPClient+RACExtensions.h"; sourceTree = "<group>"; };
 		11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELNHTTPClient+RACExtensions.m"; sourceTree = "<group>"; };
 		11267A331CBD541B005F4BED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPNetworking_RACExtensions.h; sourceTree = SOURCE_ROOT; };
 		11267A3B1CBD54ED005F4BED /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11267A3D1CBD54ED005F4BED /* ELNHTTPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELNHTTPClientTests.m; sourceTree = "<group>"; };
 		11267A3F1CBD54ED005F4BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		11267A4C1CBD588D005F4BED /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
 		11267A4E1CBD58E4005F4BED /* DemoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRequest.h; sourceTree = "<group>"; };
 		11267A4F1CBD58E4005F4BED /* DemoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRequest.m; sourceTree = "<group>"; };
+		1192D58A1CC11FE300BBBD50 /* ELNHTTPNetworking_RACExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPNetworking_RACExtensions.h; sourceTree = "<group>"; };
 		83AFA9A9C1B2A671A26D14C5 /* libPods-ELNHTTPNetworking-RACExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNHTTPNetworking-RACExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927367DCAD974D1F80F98E86 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3CF379A990259EDB989E4BE /* Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNHTTPNetworking-RACExtensions/Pods-ELNHTTPNetworking-RACExtensions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +98,7 @@
 		11267A2D1CBD5407005F4BED /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1192D58A1CC11FE300BBBD50 /* ELNHTTPNetworking_RACExtensions.h */,
 				11267A2E1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h */,
 				11267A2F1CBD5407005F4BED /* ELNHTTPClient+RACExtensions.m */,
 				11267A321CBD540E005F4BED /* Supporting Files */,
@@ -109,7 +110,6 @@
 		11267A321CBD540E005F4BED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				11267A351CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h */,
 				11267A331CBD541B005F4BED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11267A301CBD5407005F4BED /* ELNHTTPClient+RACExtensions.h in Headers */,
-				11267A361CBD5432005F4BED /* ELNHTTPNetworking_RACExtensions.h in Headers */,
+				1192D58B1CC11FE300BBBD50 /* ELNHTTPNetworking_RACExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03960B714739403B74B9BFD7 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -523,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 927367DCAD974D1F80F98E86 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

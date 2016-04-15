@@ -13,3 +13,5 @@ FOUNDATION_EXPORT double ELNHTTPNetworking_RACExtensionsVersionNumber;
 
 //! Project version string for ELNHTTPNetworking-RACExtensions.
 FOUNDATION_EXPORT const unsigned char ELNHTTPNetworking_RACExtensionsVersionString[];
+
+#import <ELNHTTPNetworking_RACExtensions/ELNHTTPClient+RACExtensions.h>

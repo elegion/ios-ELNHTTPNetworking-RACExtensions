@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ELNHTTPClient+RACExtensions.h"
+#import <ELNHTTPNetworking_RACExtensions/ELNHTTPClient+RACExtensions.h>
 #import "DemoClientConfiguration.h"
 #import "DemoRequest.h"
 #import "DemoModel.h"
